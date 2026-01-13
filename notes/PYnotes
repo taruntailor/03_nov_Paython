@@ -1,0 +1,551 @@
+Beginner Level – Answers
+
+1. What is Python?
+Python एक high-level, interpreted, object-oriented programming language है।
+
+2. Python features?
+Easy syntax, platform independent, large libraries, dynamic typing।
+
+3. Interpreted or Compiled?
+Python interpreted language है।
+
+4. Variable क्या है?
+Variable data को store करने के लिए use होता है।
+
+5. Data types?
+int, float, str, list, tuple, set, dict, bool
+
+6. Mutable vs Immutable?
+
+Mutable → list, dict, set
+
+Immutable → int, float, string, tuple
+
+7. List vs Tuple?
+List mutable होती है, Tuple immutable होती है।
+
+8. type() function?
+Variable का data type बताता है।
+
+9. Comment कैसे लिखते हैं?
+# single line
+''' multi line '''
+
+10. input() & print()?
+
+input() → user से input
+
+print() → output show
+
+🟡 Intermediate Level – Answers
+
+11. Function क्या है?
+Reusable block of code।
+
+12. Default arguments?
+Function parameters जिनकी default value होती है।
+
+**13. *args & kwargs?
+
+*args → multiple positional arguments
+
+**kwargs → keyword arguments
+
+14. Lambda function?
+One-line anonymous function।
+
+15. Map, Filter, Reduce?
+
+map → apply function
+
+filter → condition based
+
+reduce → single value result
+
+16. Iterator?
+Object जो __iter__() और __next__() implement करता है।
+
+17. Generator?
+Function जो yield use करता है।
+
+18. Exception handling?
+Runtime errors handle करने की technique।
+
+19. try-except-finally?
+Error handling blocks।
+
+20. File handling modes?
+r, w, a, r+, w+
+
+🔵 OOPs – Answers
+
+21. Class & Object?
+Class blueprint है, object real instance।
+
+22. init()?
+Constructor method।
+
+23. Encapsulation?
+Data + methods को bind करना।
+
+24. Inheritance?
+Parent class की properties child class में use करना।
+
+25. Polymorphism?
+Same method, different behavior।
+
+26. Abstraction?
+Implementation hide करना।
+
+27. Method Overloading?
+Directly supported नहीं (default args से possible)।
+
+28. Method Overriding?
+Child class में same method redefine करना।
+
+29. self keyword?
+Current object को refer करता है।
+
+30. Access modifiers?
+Public, Protected (_), Private (__)
+
+🟣 Advanced – Answers
+
+31. Memory management?
+Private heap + garbage collection।
+
+32. Garbage collection?
+Unused objects memory से remove करना।
+
+33. Shallow vs Deep copy?
+
+Shallow → reference copy
+
+Deep → complete copy
+
+34. Threading?
+Parallel execution technique।
+
+35. GIL?
+Global Interpreter Lock – one thread executes bytecode।
+
+36. Decorators?
+Function modify करने का तरीका।
+
+37. Closures?
+Function inside function with memory।
+
+38. List comprehension?
+Compact list creation syntax।
+
+39. Dict comprehension?
+Dictionary short syntax।
+
+40. Virtual environment?
+Project-specific Python setup।
+
+🔴 Important String/List Answers
+
+41. String immutable क्यों?
+Memory efficient & safe।
+
+42. Negative indexing?
+End से indexing (-1 last element)
+
+43. Slicing?
+Substring/sublist extraction।
+
+44. String reverse?
+s[::-1]
+
+45. Remove duplicates?
+set(list)
+
+46. Sorting list?
+sort() / sorted()
+
+47. Max/Min?
+max(), min()
+
+48. Frequency count?
+Dictionary / Counter
+
+49. Palindrome?
+Same forward & reverse
+
+50. Anagram?
+Same characters, different order
+
+🟠 Python + MySQL
+
+51. MySQL connect कैसे करें?
+mysql.connector.connect()
+
+52. Cursor?
+SQL commands execute करने के लिए।
+
+53. execute vs executemany?
+Single vs multiple queries
+
+54. Commit?
+Save changes
+
+55. Rollback?
+Undo changes
+////////////////////////////////////////////////////////////////////////////////////
+
+
+1. Python kya hai?
+👉 Python ek high-level, interpreted, object-oriented programming language hai jo easy syntax ke liye famous hai।
+
+2. Python ke features?
+👉 Easy syntax, open-source, platform independent, large library, dynamic typing।
+
+3. Python interpreted kyon hai?
+👉 Kyunki Python code line-by-line execute hota hai।
+
+4. Python aur Java me difference?
+👉 Python simple aur dynamic hai, Java compiled aur strict typing follow karti hai।
+
+5. Python data types?
+👉 int, float, complex, str, list, tuple, set, dict, bool।
+
+🔹 Variables & Data Types
+
+6. Variable kya hota hai?
+👉 Variable memory location hoti hai jisme data store hota hai।
+
+7. Dynamic typing kya hoti hai?
+👉 Variable ka data type runtime par decide hota hai।
+
+8. Mutable object kya hai?
+👉 Jise change kiya ja sakta hai (List, Dictionary)।
+
+9. Immutable object kya hai?
+👉 Jise change nahi kar sakte (String, Tuple)।
+
+🔹 Control Statements
+
+10. if-else kya hota hai?
+👉 Condition check karne ke liye use hota hai।
+
+11. for loop ka use?
+👉 Sequence par iterate karne ke liye।
+
+12. while loop ka use?
+👉 Jab tak condition true rahe tab tak loop chalta hai।
+
+13. break statement?
+👉 Loop ko turant stop kar deta hai।
+
+14. continue statement?
+👉 Current iteration skip kar deta hai।
+
+🔹 Functions
+
+15. Function kya hota hai?
+👉 Reusable block of code jo specific task karta hai।
+
+16. return statement?
+👉 Function se value wapas bhejne ke liye।
+
+17. Lambda function?
+👉 Single-line anonymous function।
+
+*18. args kya hai?
+👉 Multiple positional arguments lene ke liye।
+
+**19. kwargs kya hai?
+👉 Multiple keyword arguments lene ke liye।
+
+🔹 OOPs in Python
+
+20. Class kya hoti hai?
+👉 Blueprint jisse object bante hain।
+
+21. Object kya hota hai?
+👉 Class ka instance।
+
+22. Constructor kya hota hai?
+👉 init method jo object create hote hi call hota hai।
+
+23. Inheritance kya hai?
+👉 Ek class ke properties dusri class me inherit hona।
+
+24. Polymorphism kya hai?
+👉 Same function ka different behavior।
+
+25. Encapsulation kya hai?
+👉 Data ko secure rakhna by access control।
+
+26. Abstraction kya hai?
+👉 Implementation hide karke sirf functionality dikhana।
+
+🔹 Advanced Python
+
+27. Iterator kya hota hai?
+👉 Object jisme iter() aur next() method ho।
+
+28. Generator kya hota hai?
+👉 Function jo yield keyword use karta hai।
+
+29. Decorator kya hota hai?
+👉 Function ke behavior ko modify karta hai bina code change kiye।
+
+30. List comprehension?
+👉 Short way me list banane ka method।
+
+31. GIL kya hota hai?
+👉 Global Interpreter Lock jo ek time par ek thread allow karta hai।
+
+32. Garbage collection?
+👉 Unused memory ko free karna।
+
+🔹 Exception Handling
+
+33. Exception kya hoti hai?
+👉 Runtime error ko exception kehte hain।
+
+34. try-except ka use?
+👉 Error handle karne ke liye।
+
+35. finally block?
+👉 Hamesha execute hota hai (error ho ya na ho)।
+
+🔹 File Handling
+
+36. File handling kya hoti hai?
+👉 File read/write ke liye use hoti hai।
+
+37. File modes?
+👉 r, w, a, r+, w+।
+
+38. with statement?
+👉 File automatically close kar deta hai।
+
+🔹 Database
+
+39. Python me MySQL connect kaise?
+👉 mysql.connector module se।
+
+40. Cursor kya hota hai?
+👉 Database commands execute karne ke liye।
+
+
+Functions (41–55)
+
+41. Built-in functions kya hote hain?
+👉 Jo functions Python me pehle se available hote hain (print(), len(), type())।
+
+42. User-defined function?
+👉 Jo function programmer khud banata hai।
+
+43. Default argument?
+👉 Jisme function parameter ki default value hoti hai।
+
+44. Keyword argument?
+👉 Argument ko parameter ke name ke sath pass karna।
+
+45. Recursive function?
+👉 Jo function khud ko hi call karta hai।
+
+46. Function overloading Python me kaise hota hai?
+👉 Default arguments ya *args ka use karke।
+
+47. Docstring kya hota hai?
+👉 Function/class ka description dene ke liye """ """ use hota hai।
+
+48. Method aur function me difference?
+👉 Method class ke andar hota hai, function independent hota hai।
+
+49. Anonymous function?
+👉 Jiska naam nahi hota (lambda function)।
+
+50. Scope kya hota hai?
+👉 Variable ki accessibility (local, global)।
+
+51. Global variable?
+👉 Jo poore program me access ho sakta hai।
+
+52. Local variable?
+👉 Jo sirf function ke andar accessible hota hai।
+
+53. pass statement?
+👉 Empty block ke liye placeholder।
+
+54. return vs print?
+👉 return value deta hai, print sirf output show karta hai।
+
+55. map() function?
+👉 Har element par function apply karta hai।
+
+🔹 OOPs (56–75)
+
+56. Multiple inheritance?
+👉 Ek class ka multiple parent classes se inherit hona।
+
+57. Method overriding?
+👉 Child class me parent method ko redefine karna।
+
+58. Private variable?
+👉 __variable (double underscore) se banate hain।
+
+59. Protected variable?
+👉 _variable (single underscore) se banate hain।
+
+60. Public member?
+👉 Jo sab jagah accessible ho।
+
+61. self keyword?
+👉 Current object ko refer karta hai।
+
+62. super() function?
+👉 Parent class ke constructor/method ko call karta hai।
+
+63. Abstract class?
+👉 Jisme abstract methods hote hain (abc module).
+
+64. Interface Python me kaise?
+👉 Abstract Base Class ka use karke।
+
+65. MRO kya hota hai?
+👉 Method Resolution Order – method search order।
+
+66. isinstance()?
+👉 Object ka type check karta hai।
+
+67. hasattr()?
+👉 Object me attribute hai ya nahi check karta hai।
+
+68. del keyword?
+👉 Object ya variable delete karta hai।
+
+69. str method?
+👉 Object ka readable string representation deta hai।
+
+70. len method?
+👉 Object ki length return karta hai।
+
+71. Duck typing?
+👉 Object ka behavior important hota hai, type nahi।
+
+72. Data hiding?
+👉 Private variables se data hide karna।
+
+73. Class variable?
+👉 Jo class ke sab objects ke liye common hota hai।
+
+74. Instance variable?
+👉 Jo object specific hota hai।
+
+75. Static method?
+👉 @staticmethod decorator se banta hai।
+
+🔹 Advanced Python (76–95)
+
+76. Iterable kya hota hai?
+👉 Jis par loop chal sake (list, tuple, string)।
+
+77. iter method?
+👉 Iterator return karta hai।
+
+78. next method?
+👉 Next element return karta hai।
+
+79. yield vs return?
+👉 yield multiple values deta hai, return ek hi value।
+
+80. reduce() function?
+👉 Sequence ko single value me reduce karta hai।
+
+81. filter() function?
+👉 Condition ke basis par elements filter karta hai।
+
+82. Shallow copy?
+👉 Reference copy karta hai।
+
+83. Deep copy?
+👉 Complete object copy karta hai।
+
+84. Memory management?
+👉 Reference counting + garbage collection se hota hai।
+
+85. Garbage collector?
+👉 Unused objects ko delete karta hai।
+
+86. GIL limitation?
+👉 True multithreading allow nahi karta।
+
+87. Multithreading?
+👉 Multiple threads ek process me run karna।
+
+88. Multiprocessing?
+👉 Multiple processes parallel run karna।
+
+89. Exception?
+👉 Runtime error.
+
+90. Custom exception?
+👉 User-defined exception class।
+
+91. with statement?
+👉 Resource management ke liye।
+
+92. Pickle module?
+👉 Object ko file me store karne ke liye।
+
+93. Virtual environment?
+👉 Project-wise dependency isolation।
+
+94. Logging?
+👉 Program execution record karna।
+
+95. Python me API use?
+👉 requests module se।
+
+🔹 File Handling & Database (96–110)
+
+96. File open kaise?
+👉 open("file.txt","r")
+
+97. read() vs readline()?
+👉 read() poori file, readline() ek line।
+
+98. write() vs writelines()?
+👉 write() string, writelines() list.
+
+99. File close kyon zaroori?
+👉 Memory free karne ke liye।
+
+100. CSV file?
+👉 Comma separated values file।
+
+101. MySQL connector module?
+👉 mysql.connector
+
+102. Cursor role?
+👉 SQL queries execute karna।
+
+103. execute()?
+👉 SQL command chalata hai।
+
+104. commit()?
+👉 Data permanently save karta hai।
+
+105. rollback()?
+👉 Changes undo karta hai।
+
+106. fetchone()?
+👉 Ek record return karta hai।
+
+107. fetchall()?
+👉 Saare records return karta hai।
+
+108. SQLite kya hai?
+👉 Lightweight database।
+
+109. ORM kya hota hai?
+👉 Database ko object ke through access karna।
+
+110. REST API?
+👉 HTTP based client-server communication।
